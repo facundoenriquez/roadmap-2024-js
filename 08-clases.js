@@ -71,3 +71,18 @@ cola1.encolar(4);
 console.log(cola1.get_cola());
 cola1.desencolar();
 console.log(cola1.get_cola());
+
+let array = [1, 2, 3];
+let otro = [...array, 4, 5];
+console.log(otro);
+
+const x = [1, 2, 3, 4, 5];
+const [y, z] = x;
+console.log(y, z); // 1 y 2
+
+const obj = { a: 1, b: 2 };
+const { a, b } = obj;
+console.log(a, b);
+// is equivalent to:
+// const a = obj.a;
+// const b = obj.b;
